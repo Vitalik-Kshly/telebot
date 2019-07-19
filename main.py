@@ -22,7 +22,6 @@ def sort(val):
 
 @bot.message_handler(commands=['np'])
 def find_me(message):
-	
 	try:
 		quota = 0
 		url = str(message.text).split(' ')[1]
@@ -60,13 +59,11 @@ def find_me(message):
 		# for i in arr: 
 		# 	print(str(k) + str(i))
 		# 	k += 1
-
+		k = 0
 		myPrior = arr[myRank - 1][2]
 		me = arr[myRank - quota - 1]
 		
 		arr.sort(key = sort, reverse = True)
-
-
 		myPos = arr.index(me)
 
 		
