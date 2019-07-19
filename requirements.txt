@@ -1,0 +1,13 @@
+beautifulsoup4==4.7.1
+bottle==0.12.17
+bottle-websocket==0.2.9
+bs4==0.0.1
+lxml==4.3.4
+pyparsing==2.4.0
+pyTelegramBotAPI==3.6.6
+python-dateutil==2.8.0
+pywin32-ctypes==0.2.0
+requests==2.7.0
+requests-oauthlib==1.2.0
+soupsieve==1.9.2
+telebot==0.0.3
